@@ -1,0 +1,42 @@
+*{
+margin: 0;
+padding:0;
+}
+.wrapper{
+    width:70vw;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:whitesmoke;
+}
+.header {
+    font-size: 40px;
+    text-align:center;
+    margin-top: 20px;
+    color:palevioletred;
+}
+/* .searchbar{
+  width:50%; 
+} */
+.searchbar{
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 37%;
+    /* display: flex; */
+    /* margin-left: 300px; */
+    
+}
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 30px;
+    border: 1px solid grey;
+    float: left;
+    width: 40%;
+    background:white;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    /* font-size: medium; */
+    /* text-align: center; */
+  }
