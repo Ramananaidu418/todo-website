@@ -1,0 +1,20 @@
+.todolist{
+    display:flex;
+    width:350px;
+    border-top: 1px solid rgb(139, 137, 137);
+    height: 48px;
+    /* width: */
+
+}
+.todolist__icon{
+    width:25px;
+    height:100%;
+}
+.todolist__todo{
+    width:300px;
+    height:100%;
+}
+.todolist__close{
+    width:25px;
+    height:100%
+}
