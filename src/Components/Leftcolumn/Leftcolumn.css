@@ -6,7 +6,7 @@
     background-color: thistle;
     width:100vw;
 } */
-.column{
+.layout__column{
     background-color:white;
     width:22vw;
     padding:10px 10px 10px 10px;
@@ -16,7 +16,7 @@
 .column-left{
     background-color:white;
 }
-.head{
+.column__head{
     /* padding-left: 90px; */
     justify-content: left;
     text-align: left;

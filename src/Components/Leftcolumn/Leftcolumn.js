@@ -7,9 +7,9 @@ import "./Leftcolumn.css";
 const Leftcolumn=()=> {
     return (
       <div className ="layout">
-      <div className="column">
+      <div className="layout__column">
         <div className="column-left">
-        <h1 className="head">React</h1>
+        <h1 className="column__head">React</h1>
         <div>
         <p className="top">React + Backbone.js</p>
         <p className="color">Demo, Source</p>

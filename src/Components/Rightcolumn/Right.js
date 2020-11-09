@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import"./Right.css";
-import Todoform from "../todo/todoform";
+import Todoform from "../Todo/Todoform";
+import todoItem from "../todoItem/Todolist";
 
 
 const Right=(props)=> {
@@ -17,12 +18,12 @@ const Right=(props)=> {
 // }
     return (
       <div className="wrapper">
-      <div className="header">
+      <div className="wrapper__header">
         <h1>todos</h1>
       </div >
       <div className= "todo__wraper">
       <Todoform/>
-
+      <todoItem/>
       </div>
       </div>
     );

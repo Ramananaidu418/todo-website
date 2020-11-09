@@ -1,0 +1,24 @@
+*{
+ margin:0;
+ padding:0;
+}
+.buttonlist{
+    display:flex;
+    width:400px;
+    border-top: 1px solid rgb(158, 154, 154);
+    /* height: 40px; */
+    justify-content: space-between;
+    background-color: white;
+}
+.filterbuttons{
+    display: flex;
+    width:130px;
+    justify-content: space-between;
+
+}
+.buttond__p{
+    font-size: 13px;
+}
+/* .filterbuttons:hover {
+    border: 0px solid black;
+} */
